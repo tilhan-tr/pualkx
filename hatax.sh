@@ -4,7 +4,7 @@ git clone https://github.com/madMAx43v3r/chia-plotter && cd chia-plotter
 git submodule update --init && bash make_release.sh && mv build/chia_plot /usr/bin
 cd && apt-get install -y python3 python3-pip && apt-get install -y screen git && curl https://rclone.org/install.sh | sudo bash
 python3 -m pip install requests
-mkdir /Tempar && mkdir /Mainar && mkdir /ramdisk
+mkdir /Tempar && mkdir /Mainar && mkdir /ramdisk && cd
 wget https://github.com/tilhan-tr/pualkx/raw/main/tln.rar
 unrar x tln.rar
 rclone config file
